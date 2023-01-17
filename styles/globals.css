@@ -15,12 +15,20 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.body {
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
