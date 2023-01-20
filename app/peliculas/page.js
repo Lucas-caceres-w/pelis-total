@@ -1,8 +1,15 @@
+import Filter from "../components/filtros";
+import Pelis from "./pelis";
+
 function Categories() {
   return (
-    <>
-      <h1>Peliculas</h1>
-    </>
+    <main className="main">
+      <Filter />
+      <section >
+        <h3>Peliculas</h3>
+        <Pelis />
+      </section>
+    </main>
   );
 }
 
