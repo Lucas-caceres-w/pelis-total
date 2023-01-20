@@ -31,6 +31,11 @@ a {
   color: var(--letters);
 }
 
+a {
+  text-decoration: none;
+  color: #e7e7e7;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -85,22 +90,22 @@ h4 {
 }
 
 .modal-content {
-  background-color: #191920;
+  background-color: #191920 !important;
 }
 
 .btn-close {
-  background-color: var(--details);
+  background-color: var(--details) !important;
 }
 
 .btn-primary {
-  background-color: var(--others);
-  border: 1px solid var(--others);
+  background-color: var(--others) !important;
+  border: 1px solid var(--others) !important;
 }
 
 .btn-primary:hover {
   color: #161323;
-  background-color: var(--details);
-  border: 1px solid var(--details);
+  background-color: var(--details) !important;
+  border: 1px solid var(--details) !important;
 }
 
 .textos {
