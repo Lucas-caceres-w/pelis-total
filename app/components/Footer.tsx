@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 import image from "../../images/logo.png";
 
 function Footer() {
@@ -7,7 +8,7 @@ function Footer() {
     <footer>
       <section className="footer-tags">
         <div className="image-conteiner">
-          <Image src={image} width={150} height={150} />
+          <Image alt="img" src={image} width={150} height={150} />
         </div>
         <div>
           <h3>Recursos</h3>

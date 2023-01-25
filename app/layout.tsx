@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "../styles/globals.css";
 import "../styles/responsive.css";
+import React from "react";
 
 export default function RootLayout({ children }) {
   return (
